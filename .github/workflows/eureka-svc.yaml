@@ -11,12 +11,12 @@ on:
     branches: [ main ]
     paths:
       - 'MicroService-ServiceDisocveryEureka/**'
-defaults:
-  run:
-    shell: bash
-    working-directory: MicroService-ServiceDisocveryEureka
+
 jobs:
   build:
+     defaults:
+       run:
+         working-directory: MicroService-ServiceDisocveryEureka
      name: Maven Build
      runs-on: [ ubuntu-latest ]
      steps:
