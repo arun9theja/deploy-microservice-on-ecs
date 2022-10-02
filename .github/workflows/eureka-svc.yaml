@@ -16,7 +16,7 @@ jobs:
   build:
      defaults:
        run:
-         working-directory: MicroService-ServiceDisocveryEureka
+         working-directory: ./MicroService-ServiceDisocveryEureka
      name: Maven Build
      runs-on: [ ubuntu-latest ]
      steps:
