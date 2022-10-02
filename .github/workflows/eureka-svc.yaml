@@ -14,6 +14,7 @@ on:
 defaults:
   run:
     shell: bash
+    working-directory: MicroService-ServiceDisocveryEureka
 jobs:
   build:
      name: Maven Build
