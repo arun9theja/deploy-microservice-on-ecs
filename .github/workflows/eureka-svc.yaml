@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: helloworld-eureka-svc.jar
-          path: target/helloworld-eureka-svc.jar
+          path: MicroService-ServiceDisocveryEureka/target/helloworld-eureka-svc.jar
   docker-build:
     needs: build
     runs-on: [ ubuntu-latest ]
