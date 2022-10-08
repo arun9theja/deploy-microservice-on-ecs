@@ -6,17 +6,17 @@ on:
     branches:
       - main
     paths:
-      - 'MicroService-ServiceDisocveryEureka/**'
+      - 'MicroService-HelloService/**'
   pull_request:
     branches: [ main ]
     paths:
-      - 'MicroService-ServiceDisocveryEureka/**'
+      - 'MicroService-HelloService/**'
 
 jobs:
   build:
     # defaults:
      #  run:
-      #   working-directory: ./MicroService-ServiceDisocveryEureka
+      #   working-directory: ./MicroService-HelloService
      name: Maven Build
      runs-on: [ ubuntu-latest ]
      steps:
