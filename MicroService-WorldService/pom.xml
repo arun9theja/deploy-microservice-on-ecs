@@ -8,26 +8,27 @@
         <version>2.4.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>helloservice</groupId>
-    <artifactId>helloservice</artifactId>
+    <groupId>world-service</groupId>
+    <artifactId>world-service</artifactId>
     <version>1</version>
-    <name>helloservice</name>
-    <description>Hello Service for Microservices Demo</description>
+    <name>world-service</name>
+    <description>World Service for Hello World with Microservices Demo</description>
 
     <properties>
         <java.version>11</java.version>
-        <spring-cloud.version>2020.0.0-RC1</spring-cloud.version>
+        <spring-cloud.version>2020.0.0</spring-cloud.version>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 
